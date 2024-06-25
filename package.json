@@ -1,0 +1,14 @@
+{
+  "name": "mintit_911",
+  "version": "1.0.0",
+  "description": "simple project for MINTIT emergency page.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "slogup-wade",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

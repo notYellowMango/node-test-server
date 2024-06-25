@@ -1,0 +1,142 @@
+:root {
+  --content-max-width: 1220px;
+  --content-max-middle-width: 1080px;
+  --content-width-padding: 35px;
+  --content-width-mobile-padding: 20px;
+  --color-main-black: #000;
+  --color-main-white: #fff;
+  --color-sub-white1: #f9fafb;
+  --color-sub-white2: #f7f9fa;
+  --color-sub-white3: #fafafa;
+  --color-primary1: #33ccbd;
+  --color-gray1: #f0f0f0;
+  --color-gray2: #999;
+  --color-gray3: #7d7d7d;
+  --color-gray4: #666;
+  --color-gray5: #c8c8c8;
+  --color-gray6: #a5a5a5;
+  --color-gray7: #4d4d4d;
+  --font-size-h1__big: 60px;
+  --font-size-h1: 50px;
+  --font-size-h2: 42px;
+  --font-size-h3: 32px;
+  --font-size-h3__small: 28px;
+  --font-size-h4: 24px;
+  --font-size-h5: 20px;
+  --font-size-b1__big: 32px;
+  --font-size-b1: 26px;
+  --font-size-b1__small: 24px;
+  --font-size-b2: 20px;
+  --font-size-b3: 18px;
+  --font-size-b4: 16px;
+  --font-size-b5: 14px;
+}
+
+html {
+  font-size: var(--font-size-b4);
+  font-family: "Spoqa Han Sans Neo", "sans-serif";
+}
+
+body {
+  margin: 0;
+}
+
+#wrap {
+  padding-top: 0;
+}
+
+#emergencyInspection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #9db7b2;
+  gap: 32px;
+  line-height: 1.5;
+}
+
+#emergencyInspection section.content {
+  word-break: keep-all;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+}
+
+#emergencyInspection figure {
+  width: 100%;
+  margin-bottom: 32px;
+}
+
+#emergencyInspection h1 {
+  color: #00473a;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+#emergencyInspection em {
+  display: inline-block;
+  color: #00473a;
+  text-decoration: underline;
+  font-size: 20px;
+  padding-bottom: 6px;
+}
+
+#emergencyInspection .normal-label {
+  background-color: #a2b6b2;
+  color: white;
+  padding: 0.3em 0.7em;
+  width: 100px;
+  margin: 0 auto 0.2em;
+  border-radius: 20px;
+}
+
+#emergencyInspection .normal-font {
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 700px) {
+  :root {
+    --content-width-padding: 40px;
+    --font-size-h1__big: 28px;
+    --font-size-h1: 20px;
+    --font-size-h2: 20px;
+    --font-size-h3: 18px;
+    --font-size-h4: 14px;
+    --font-size-b1__big: 14px;
+    --font-size-b1: 14px;
+    --font-size-b2: 12px;
+    --font-size-b3: 10px;
+    --font-size-b4: 14px;
+  }
+
+  html {
+    overflow-x: hidden;
+    font-size: 14px;
+  }
+
+  #emergencyInspection section.content {
+    padding: 0 8px;
+  }
+
+  #emergencyInspection figure {
+    width: 100%;
+    margin-bottom: 0;
+  }
+
+  #emergencyInspection h1 {
+    font-size: 20px;
+  }
+
+  #emergencyInspection em {
+    font-size: 16px;
+  }
+
+  #emergencyInspection .normal-label {
+    width: 70px;
+  }
+
+  #emergencyInspection .normal-font {
+    font-size: 14px;
+  }
+}
